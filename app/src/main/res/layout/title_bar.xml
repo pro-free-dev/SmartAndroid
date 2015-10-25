@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 标题栏式样 : 按钮 +  标题名 + 按钮 -->
+<LinearLayout android:id="@+id/titlebar_layout"
+              xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#ff222222"
+              android:gravity="top"
+              android:orientation="horizontal">
+
+    <!-- 左侧按钮 -->
+
+    <ImageView
+        android:id="@+id/titlebar_imageview_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|left"
+        android:layout_marginLeft="15px"
+        android:contentDescription="@string/title_bar_imgleft_desc"
+        android:src="@null"/>
+
+    <!-- 标题名 -->
+
+    <!--android:gravity="center"
+   android:textColor="#141414" -->
+    <TextView
+        android:id="@+id/titlebar_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:gravity="center_vertical"
+        android:text="@string/title_bar_textview"
+        android:textColor="#fff"
+        android:textSize="@dimen/titlebar_text_textsize"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+    <!-- 右侧按钮 -->
+
+    <ImageView
+        android:id="@+id/titlebar_imageview_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|right"
+        android:layout_marginRight="15px"
+        android:background="@mipmap/ewm"
+        android:contentDescription="@string/title_bar_imgright_desc"/>
+
+</LinearLayout>

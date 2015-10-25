@@ -1,0 +1,99 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@mipmap/login_bg"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:visibility="invisible"/>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_top_corner_no_bottom_line"
+                android:padding="8dip">
+
+                <EditText
+                    android:id="@+id/login_edittext_username"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:textCursorDrawable="@null"
+                    android:drawableLeft="@mipmap/login_name"
+                    android:ems="10"
+                    android:hint="请输入用户名"
+                    android:inputType="textPersonName"
+                    android:singleLine="true"/>
+            </TableRow>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="13dp"
+                android:layout_gravity="center_vertical"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:visibility="invisible"/>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_top_corner_no_bottom_line"
+                android:padding="8dip">
+
+                <EditText
+                    android:id="@+id/login_edittext_password"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:background="@null"
+                    android:textCursorDrawable="@null"
+                    android:drawableLeft="@mipmap/login_pwd"
+                    android:ems="10"
+                    android:hint="请输入密码"
+                    android:inputType="textPassword"/>
+            </TableRow>
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="13dp"
+                android:layout_gravity="center_vertical"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:visibility="invisible"/>
+
+
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/login_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@mipmap/login_btn"/>
+
+            </TableRow>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

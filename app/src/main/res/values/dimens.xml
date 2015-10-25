@@ -1,0 +1,235 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- 800*480 -->
+
+    <!-- ########################### LoadingActivity ####################################### -->
+
+    <dimen name="loading_logo_padding">30dp</dimen>
+    <dimen name="loading_copyright_padding">5dp</dimen>
+    <dimen name="loading_copyright_marginbuttom">5dp</dimen>
+
+    <!-- ########################### LoginActivity ####################################### -->
+    <!-- 用户名和密码输入框 -->
+    <dimen name="login_edittext_width">254dp</dimen>
+    <dimen name="login_edittext_height">52dp</dimen>
+    <dimen name="login_edittext_marginbottom">10dp</dimen>
+    <dimen name="login_edittext_margintop">10dp</dimen>
+    <dimen name="login_edittext_padding">10dp</dimen>
+    <dimen name="login_edittext_textsize">18sp</dimen>
+    <!-- 登录按钮 -->
+    <dimen name="login_button_width">249dp</dimen>
+    <dimen name="login_button_height">50dp</dimen>
+    <dimen name="login_button_marginbottom">10dp</dimen>
+    <!-- copyright -->
+    <dimen name="login_copyright_padding">30dp</dimen>
+
+    <!-- ########################### HomePageActivity ####################################### -->
+    <!-- title button -->
+    <dimen name="homepage_title_btn_background_marginbottom">5dp</dimen>
+    <dimen name="homepage_title_btn_width">80dp</dimen>
+    <dimen name="homepage_title_btn_height">25dp</dimen>
+    <dimen name="homepage_title_btn_textsize">15sp</dimen>
+    <!-- gridview -->
+    <dimen name="homepage_gridview_horizontalspacing">15dp</dimen>
+    <dimen name="homepage_gridview_verticalspacing">15dp</dimen>
+    <dimen name="homepage_gridview_padding">15dp</dimen>
+    <!-- button -->
+    <dimen name="homepage_linearlayout_padding">5dp</dimen>
+    <dimen name="homepage_imagelogo_height">180dp</dimen>
+    <dimen name="homepage_imagelogo_margintop">15dp</dimen>
+    <dimen name="homepage_add_width">30dp</dimen>
+    <dimen name="homepage_add_height">30dp</dimen>
+    <dimen name="homepage_add_marginbottom">26dp</dimen>
+    <dimen name="homepage_setting_width">30dp</dimen>
+    <dimen name="homepage_setting_height">30dp</dimen>
+    <dimen name="homepage_setting_marginbottom">40dp</dimen>
+    <!-- gridview item -->
+    <dimen name="homepage_gridview_item_image_width">95dp</dimen>
+    <dimen name="homepage_gridview_item_image_height">95dp</dimen>
+    <dimen name="homepage_gridview_item_textview_width">78dp</dimen>
+    <dimen name="homepage_gridview_item_textview_height">38dp</dimen>
+    <dimen name="homepage_gridview_item_textview_size">12sp</dimen>
+    <dimen name="homepage_gridview_item_btn_delete_width">18dp</dimen>
+    <dimen name="homepage_gridview_item_btn_delete_height">18dp</dimen>
+    <dimen name="homepage_gridview_item_btn_delete_marginleft">2dp</dimen>
+    <dimen name="homepage_gridview_item_btn_delete_margintop">2dp</dimen>
+
+    <!-- ########################### HomePageActivity ####################################### -->
+    <dimen name="main_shadow_width">30dp</dimen>
+
+    <!-- ########################### AddFunctionActivity ####################################### -->
+    <dimen name="addfun_listview_item_layout_height">60dp</dimen>
+    <dimen name="addfun_listview_item_layout_padding">10dp</dimen>
+    <dimen name="addfun_listview_item_textview_textsize">18sp</dimen>
+    <dimen name="addfun_listview_item_imageview_width">30dp</dimen>
+    <dimen name="addfun_listview_item_imageview_height">30dp</dimen>
+    <dimen name="addfun_listview_item_imageview_marginleft">30dp</dimen>
+
+    <!-- ########################### SettingActivity ####################################### -->
+    <dimen name="setting_layoutpadding">30dp</dimen>
+    <dimen name="setting_imageview_marginright">5dp</dimen>
+    <dimen name="setting_textview_marginright">20dp</dimen>
+
+    <!-- ########################### GetDefaultNodeActivity ####################################### -->
+    <dimen name="getdefaultnode_layout_paddingtop">30dp</dimen>
+    <dimen name="getdefaultnode_listview_item_imageview_marginleft">26dp</dimen>
+    <dimen name="getdefaultnode_listview_item_textview_marginleft">20dp</dimen>
+    <dimen name="getdefaultnode_listview_item_imageview_paddingbottom">15dp</dimen>
+    <dimen name="getdefaultnode_listview_item_imageview_paddingtop">15dp</dimen>
+    <dimen name="getdefaultnode_listview_item_imageview_paddingleft">20dp</dimen>
+    <dimen name="getdefaultnode_listview_item_imageview_paddingright">20dp</dimen>
+
+    <!-- ########################### titlebar ####################################### -->
+    <dimen name="titlebar_text_margintop">10dp</dimen>
+    <dimen name="titlebar_text_textsize">16sp</dimen>
+
+    <!-- ########################### node menu layout ####################################### -->
+    <dimen name="nodemenu_textview_margintop">10dp</dimen>
+    <dimen name="nodemenu_textview_textsize">18sp</dimen>
+    <!-- listview item -->
+    <dimen name="nodemenu_item_textview_textsize">16sp</dimen>
+    <dimen name="nodemenu_item_textview_paddingleft">20dp</dimen>
+    <dimen name="nodemenu_item_imageview_paddingtop">15dp</dimen>
+    <dimen name="nodemenu_item_imageview_paddingbottom">15dp</dimen>
+    <dimen name="nodemenu_item_imageview_paddingright">20dp</dimen>
+    <dimen name="nodemenu_item_imageview_paddingleft">20dp</dimen>
+
+    <!-- ########################### no data listview item ####################################### -->
+    <dimen name="nodata_listview_item_padding">15dp</dimen>
+    <dimen name="nodata_listview_item_textsize">16sp</dimen>
+
+    <!-- ########################### FilterActivity ####################################### -->
+    <!-- deviceefficiency -->
+    <dimen name="filter_deviceefficiency_layout_paddingtop">30dp</dimen>
+    <dimen name="filter_deviceefficiency_layout_margintop">30dp</dimen>
+    <!-- planlist -->
+    <dimen name="filter_planlist_layout_paddingtop">30dp</dimen>
+    <!-- timeanalysis -->
+    <dimen name="filter_timeanalysis_layout_paddingtop">30dp</dimen>
+    <dimen name="filter_timeanalysis_layout_margintop">30dp</dimen>
+
+    <!-- ########################### PlanListFragment ####################################### -->
+    <dimen name="planlist_title_textview_padding">10dp</dimen>
+    <dimen name="planlist_title_textview_textsize">18sp</dimen>
+    <dimen name="planlist_legend_layout_marginbottom">30dp</dimen>
+    <dimen name="planlist_legend_drawablepadding">3dp</dimen>
+    <dimen name="planlist_legend_paddingright">10dp</dimen>
+    <dimen name="planlist_filter_layout_paddingbottom">10dp</dimen>
+    <dimen name="planlist_filter_layout_paddingtop">15dp</dimen>
+    <!-- item -->
+    <dimen name="planlist_item_layout_paddingbottom">5dp</dimen>
+    <dimen name="planlist_item_layout_paddingtop">5dp</dimen>
+    <dimen name="planlist_item_imageview_paddingleft">10dp</dimen>
+    <dimen name="planlist_item_imageview_paddingright">10dp</dimen>
+    <dimen name="planlist_item_layout_marginleft">15dp</dimen>
+    <dimen name="planlist_item_title_text_textsize">16sp</dimen>
+    <dimen name="planlist_item_text_textsize">13sp</dimen>
+    <dimen name="planlist_item_progressbar_width">50dp</dimen>
+    <dimen name="planlist_item_progressbar_height">50dp</dimen>
+    <dimen name="planlist_item_progressbar_roundwidth">5dp</dimen>
+    <dimen name="planlist_item_progressbar_textsize">13sp</dimen>
+    <dimen name="planlist_item_image_arrow_marginleft">20dp</dimen>
+    <dimen name="planlist_item_image_arrow_marginright">20dp</dimen>
+
+    <!-- ########################### DeviceEffciencyFragment ####################################### -->
+    <dimen name="deviceefficiency_title_textview_padding">10dp</dimen>
+    <dimen name="deviceefficiency_title_textview_textsize">18sp</dimen>
+    <dimen name="deviceefficiency_title_nodata_textview_textsize">25sp</dimen>
+    <dimen name="deviceefficiency_title_filter_btn_marginbottom">5dp</dimen>
+    <dimen name="deviceefficiency_title_filter_btn_marginleft">25dp</dimen>
+    <dimen name="deviceefficiency_title_filter_btn_marginright">25dp</dimen>
+    <dimen name="deviceefficiency_title_filter_btn_textsize">14sp</dimen>
+    <dimen name="deviceefficiency_legend_layout_paddingrignt">10dp</dimen>
+    <dimen name="deviceefficiency_legend_margintop">10dp</dimen>
+    <dimen name="deviceefficiency_legend_drawablepadding">5dp</dimen>
+    <dimen name="deviceefficiency_bottom_layout_paddingbottom">10dp</dimen>
+    <dimen name="deviceefficiency_bottom_layout_paddingtop">15dp</dimen>
+
+    <!-- ########################### TimeAnalysisFragment ####################################### -->
+    <dimen name="timeanalysis_title_padding">10dp</dimen>
+    <dimen name="timeanalysis_title_textsize">18sp</dimen>
+    <dimen name="timeanalysis_title_filter_btn_marginbottom">5dp</dimen>
+    <dimen name="timeanalysis_title_filter_btn_marginleft">25dp</dimen>
+    <dimen name="timeanalysis_title_filter_btn_marginright">25dp</dimen>
+    <dimen name="timeanalysis_title_filter_btn_textsize">14sp</dimen>
+    <dimen name="timeanalysis_legend_layout_paddingrignt">10dp</dimen>
+    <dimen name="timeanalysis_legend_drawablepadding">3dp</dimen>
+    <dimen name="timeanalysis_legend_paddingright">10dp</dimen>
+    <dimen name="timeanalysis_filter_paddingbottom">10dp</dimen>
+    <dimen name="timeanalysis_filter_paddingtop">15dp</dimen>
+
+    <!-- ########################### DeviceRunningRateFragment ####################################### -->
+    <dimen name="devicerunningrate_title_padding">10dp</dimen>
+    <dimen name="devicerunningrate_title_textsize">18sp</dimen>
+    <dimen name="devicerunningrate_chart_padding">10dp</dimen>
+    <dimen name="devicerunningrate_image_height">40dp</dimen>
+    <dimen name="devicerunningrate_image_widht">40dp</dimen>
+    <dimen name="devicerunningrate_chart_image_marginbottom">5dp</dimen>
+    <dimen name="devicerunningrate_legend_layout_marginbottom">30dp</dimen>
+    <dimen name="devicerunningrate_legend_drawablepadding">2dp</dimen>
+    <dimen name="devicerunningrate_legend_paddingright">8dp</dimen>
+    <dimen name="devicerunningrate_legend_textsize">12sp</dimen>
+    <dimen name="devicerunningrate_bottomlayout_paddingbottom">10dp</dimen>
+    <dimen name="devicerunningrate_bottomlayout_paddingtop">15dp</dimen>
+
+    <!-- ########################### OutputCountFragment ####################################### -->
+    <dimen name="outputcount_title_padding">10dp</dimen>
+    <dimen name="outputcount_type_text_size">15sp</dimen>
+    <dimen name="outputcount_type_text_marginright">40dp</dimen>
+    <dimen name="outputcount_type_text_marginbottom">5dp</dimen>
+
+    <!-- ########################### ParamFragment ####################################### -->
+    <dimen name="param_clearedittext_textsize">15sp</dimen>
+    <dimen name="param_swipelistview_text_width">80dp</dimen>
+    <dimen name="param_swipelistview_text_height">80dp</dimen>
+    <dimen name="param_swipelistview_text_size">30sp</dimen>
+    <dimen name="param_sidebar_width">30dp</dimen>
+
+    <!-- ########################### ParamListview ####################################### -->
+    <dimen name="param_listview_back_height">50dp</dimen>
+    <dimen name="param_listview_back_text_height">50dp</dimen>
+    <dimen name="param_listview_back_text_size">16sp</dimen>
+    <dimen name="param_listview_front_height">50dp</dimen>
+    <dimen name="param_listview_front_text_marginleft">10dp</dimen>
+    <dimen name="param_listview_front_text_paddingbottom">15dp</dimen>
+    <dimen name="param_listview_front_text_paddingtop">15dp</dimen>
+    <dimen name="param_listview_front_text_textsize">16sp</dimen>
+    <dimen name="param_listview_front_text_textsize1">14sp</dimen>
+
+    <!-- ########################### multi choice dialog listview item ####################################### -->
+    <dimen name="multichoice_imageview_paddingtop">5dp</dimen>
+    <dimen name="multichoice_textview_paddingleft">5dp</dimen>
+    <dimen name="multichoice_listview_padding">8dp</dimen>
+
+    <!-- ########################### PlanDetailActivity ####################################### -->
+    <dimen name="plandetail_title_padding">10dp</dimen>
+    <dimen name="plandetail_title_textsize">18sp</dimen>
+    <dimen name="plandetail_layout_paddingtop">30dp</dimen>
+
+    <!-- ########################### DeviceStatusDetailActivity ####################################### -->
+    <dimen name="devicestatus_detail_button_textsize">13sp</dimen>
+    <dimen name="devicestatus_detail_addimage_margintop">5dp</dimen>
+    <dimen name="devicestatus_detail_button_padding">10dp</dimen>
+
+    <!-- ########################### DeviceStatusFragment ####################################### -->
+    <dimen name="devicestatus_addimage_margintop">5dp</dimen>
+
+    <!-- ########################### pull to refresh head item ####################################### -->
+    <dimen name="pulltorefresh_head_layout_height">60dp</dimen>
+    <dimen name="pulltorefresh_head_layout_width">200dp</dimen>
+    <dimen name="pulltorefresh_head_progressbar_size">30dp</dimen>
+
+    <!-- ########################### styles ####################################### -->
+    <dimen name="plandetail_relativelayout_padding">15dp</dimen>
+    <dimen name="plandetail_textview_left_textSize">18sp</dimen>
+    <dimen name="plandetail_textview_right_textsize">16sp</dimen>
+    <dimen name="filter_relativelayout_padding">15dp</dimen>
+    <dimen name="filter_textview_left_textsize">18sp</dimen>
+    <dimen name="filter_textview_right_textsize">18sp</dimen>
+    <dimen name="filter_textview_right_drawablepadding">10dp</dimen>
+
+
+</resources>

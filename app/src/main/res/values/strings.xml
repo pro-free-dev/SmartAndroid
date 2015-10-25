@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">智能设备</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+
+    <!-- ################################ 登录界面 ################################### -->
+    <string name="login_edittext_hint_username_str">请输入用户名</string>
+    <string name="login_edittext_hint_password_str">请输入密码</string>
+    <string name="login_btn_str">登录</string>
+    <string name="login_edittext_username_empty_str">用户名不能为空或空格</string>
+    <string name="login_edittext_password_empty_str">密码不能为空或空格</string>
+    <string name="login_edittext_password_wrong_str">密码格式不正确,请输入6～20位英文或数字组合</string>
+    <string name="login_loading_str">登录中,请稍候......</string>
+    <string name="dialog_system_prompt_str">系统提示</string>
+    <string name="dialog_operation_prompt_str">操作提示</string>
+    <string name="dialog_net_setting_str">目前网络处于不可使用状态,请先把网络设置为连接状态</string>
+    <string name="dialog_data_delete_str">您要删除该数据吗？</string>
+    <string name="dialog_setting_btn_str">设置</string>
+    <string name="dialog_wait_btn_str">稍后</string>
+    <string name="dialog_delete_btn_str">删除</string>
+    <string name="dialog_confirm_btn_str">确认</string>
+    <string name="dialog_cancel_btn_str">取消</string>
+
+
+    <!-- ################################ 标题栏 ################################### -->
+    <string name="title_bar_textview">关于我们</string>
+    <string name="title_bar_imgleft_desc"></string>
+    <string name="title_bar_imgright_desc"></string>
+</resources>

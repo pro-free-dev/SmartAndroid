@@ -1,0 +1,4 @@
+<resources>
+    <!--常量定义 Constant-->
+    <item name="thread_tag_login" type="id" />
+</resources>
