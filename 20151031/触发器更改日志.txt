@@ -1,0 +1,114 @@
+--以下为创建Trigger代码，替换原代SQL脚本中的触发器
+
+--insert into bizappflow(appname,appinstanceid,appinstancecode,status,activityname,remark,changedtime,changeduserid,changedusername) values(1,2,3,4,5,6,to_date('2002-08-26','yyyy-mm-dd'),8,9)
+--drop trigger BIZAPPFLOW_ID_TRG
+
+
+create or replace trigger BIZAPPFLOW_ID_TRG
+before insert on BIZAPPFLOW
+for each row
+begin
+      select   BIZAPPFLOW_ID_SEQ.nextval   into:new.id from sys.dual ;
+end;
+
+
+create or replace trigger MANPRODUCTORDER_ID_TRG
+before insert on MANPRODUCTORDER
+for each row
+begin
+      select  MANPRODUCTORDER_ID_SEQ.nextval   into:new.id from sys.dual ;
+end;
+
+
+create or replace trigger SYSRESOURCE_ID_TRG
+before insert on SYSRESOURCE
+for each row
+begin
+      select  SYSRESOURCE_ID_SEQ.nextval   into:new.id from sys.dual ;
+end;
+
+
+create or replace trigger SYSROLEGROUPRESOURCE_ID_TRG
+before insert on SYSROLEGROUPRESOURCE
+for each row
+begin
+      select  SYSROLEGROUPRESOURCE_ID_SEQ.nextval   into:new.id from sys.dual ;
+end;
+
+
+create or replace trigger SYSROLEUSER_ID_TRG
+before insert on SYSROLEUSER
+for each row
+begin
+      select  SYSROLEUSER_ID_SEQ.nextval   into:new.id from sys.dual ;
+end;
+
+
+create or replace trigger SYSROLE_ID_TRG
+before insert on SYSROLE
+for each row
+begin
+      select  SYSROLE_ID_SEQ.nextval   into:new.id from sys.dual ;
+end;
+
+
+create or replace trigger SYSUSERRESOURCE_ID_TRG
+before insert on SYSUSERRESOURCE
+for each row
+begin
+      select  SYSUSERRESOURCE_ID_SEQ.nextval   into:new.id from sys.dual ;
+end;
+
+
+create or replace trigger SYSUSER_ID_TRG
+before insert on SYSUSER
+for each row
+begin
+      select  SYSUSER_ID_SEQ.nextval   into:new.id from sys.dual ;
+end;
+
+
+create or replace trigger WFACTIVITYINSTANCE_ID_TRG
+before insert on WFACTIVITYINSTANCE
+for each row
+begin
+      select  WFACTIVITYINSTANCE_ID_SEQ.nextval   into:new.id from sys.dual ;
+end;
+
+
+create or replace trigger WFLOG_ID_TRG
+before insert on WFLOG
+for each row
+begin
+      select  WFLOG_ID_SEQ.nextval   into:new.id from sys.dual ;
+end;
+
+create or replace trigger WFPROCESSINSTANCE_ID_TRG
+before insert on WFPROCESSINSTANCE
+for each row
+begin
+      select  WFPROCESSINSTANCE_ID_SEQ.nextval   into:new.id from sys.dual ;
+end;
+
+
+create or replace trigger WFPROCESS_ID_TRG
+before insert on WFPROCESS
+for each row
+begin
+      select  WFPROCESS_ID_SEQ.nextval   into:new.id from sys.dual ;
+end;
+
+create or replace trigger WFTASKS_ID_TRG
+before insert on WFTASKS
+for each row
+begin
+      select  WFTASKS_ID_SEQ.nextval   into:new.id from sys.dual ;
+end;
+
+
+create or replace trigger WFTRANSITIONINSTANCE_ID_TRG
+before insert on WFTRANSITIONINSTANCE
+for each row
+begin
+      select  WFTRANSITIONINSTANCE_ID_SEQ.nextval   into:new.id from sys.dual ;
+end;

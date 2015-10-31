@@ -1,0 +1,36 @@
+ /* username:wfdboracle
+  * pwd:123456
+  * tablespace:wfdb_space
+  */
+
+
+CREATE TABLESPACE wfdb_space  
+DATAFILE 'E:\ORACLE\TABLESPACE' size 800M  
+         EXTENT MANAGEMENT LOCAL SEGMENT SPACE MANAGEMENT AUTO;  
+         
+         
+--索引表空间  
+CREATE TABLESPACE wfdb_space_Index  
+DATAFILE 'F:\ORACLE\TABLESPACE' size 512M           
+         EXTENT MANAGEMENT LOCAL SEGMENT SPACE MANAGEMENT AUTO;  
+         
+         
+         
+--建用户  
+create user wfdboracle identified by 123456   
+default tablespace wfdb_space;  
+
+
+--3.赋权  
+grant connect,resource to wfdboracle;  
+grant create any sequence to wfdboracle;  
+grant create any table to wfdboracle;  
+grant delete any table to wfdboracle;  
+grant insert any table to wfdboracle;  
+grant select any table to wfdboracle;  
+grant unlimited tablespace to wfdboracle;  
+grant execute any procedure to wfdboracle;  
+grant update any table to wfdboracle;  
+grant create any view to wfdboracle; 
+grant dba to wfdboracle;
+
