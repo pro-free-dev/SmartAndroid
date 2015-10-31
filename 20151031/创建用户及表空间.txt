@@ -34,3 +34,19 @@ grant update any table to wfdboracle;
 grant create any view to wfdboracle; 
 grant dba to wfdboracle;
 
+
+
+/*
+≤È—Øœ‡πÿ
+
+select name from v$database;
+
+select * from user_tables;
+
+select * from user_sequences;
+
+select * from user_triggers;
+
+select username,default_tablespace from dba_users where username='WFDBORACLE';
+*/
+
